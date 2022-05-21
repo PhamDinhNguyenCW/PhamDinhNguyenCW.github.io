@@ -5,7 +5,7 @@
 }
 /*-----------------------Header-----------------------*/
 header{
-	font: Arial, Helvetica ,sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .top_nav{
@@ -104,6 +104,7 @@ header{
 }
 /*-----------------------Section-----------------------*/
 .section{
+	font-family: 'Poppins', sans-serif;
 	background-image: url("1.gif");
 	height: 100vh;
 	background-size: auto;
@@ -118,7 +119,6 @@ header{
 }
 
 .title h1{
-	font-family: Arial, sans-serif;
 	color: #fff;
 	font-size: 30px;
 }
