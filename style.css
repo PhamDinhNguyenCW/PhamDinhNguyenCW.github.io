@@ -104,7 +104,7 @@ header{
 }
 /*-----------------------Section-----------------------*/
 .section{
-	background-image: url("../img/1.gif");
+	background-image: url("1.gif");
 	height: 100vh;
 	background-size: auto;
 	background-position: center;
@@ -217,7 +217,7 @@ footer{
 /*---------------------CSS PAGE INFO--------------------*/
 .section_1{  /*section page info*/
 	font-family: 'Poppins', sans-serif;
-	background-image: url(../img/background_info.gif);
+	background-image: url(background_info.gif);
 	/*background-color: #fff;*/
 	height: 90vh;
 	background-size: auto;
