@@ -120,14 +120,14 @@ header{
 
 .title h1{
 	color: #fff;
-	font-size: 30px;
+	font-size: 40px;
 }
 
 .wrapper {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	transform: translate(-48%,-50%);
   /*This part is important for centering*/
   	display: grid;
   	place-items: center;
@@ -187,34 +187,34 @@ header{
   	border-bottom-right-radius: 30px;
 }
 /*-----------------------Footer-----------------------*/
-footer{
-	background-color: #000;
-	margin-top: 1px;
+.footer{
+	font-family: 'Poppins', sans-serif;
+	background-color: #242526;
 	height: 30vh;
 	background-size: cover;
 	background-position: center;
 }
 
-.footer {
-  	color: #000;
-  	text-align: center;
+.footer__a{
+	text-align: center;
+	padding: 30px;
 }
 
-.footer__a {
-	padding: 60px;
+.footer__a a {
+  text-decoration: none;
+  color: #fff;
+  margin: 50px 12px 30px;
+  display: inline-block;
+  font-size: 28px;
+  transition: 0.25s;
 }
-
-.footer__icon {
-	margin: 50px 15px 40px;
-  	font-size: 30px;
-  	color: #fff;
+.footer__a a:hover {
+	color: #000;
 }
-
-.footer__copy {
-	padding: 25px;
+.footer p{
+	margin-top: 2px;
 	color: #fff;
 }
-
 /*---------------------CSS PAGE INFO--------------------*/
 .section_1{  /*section page info*/
 	font-family: 'Poppins', sans-serif;
