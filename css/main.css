@@ -269,8 +269,7 @@ ul li a:hover:after{
 	color: #fff;
 }
 .section_1{  /*section page info*/
-	font-family: 'Poppins', sans-serif;
-	background-image: url("../img/background_info.gif");
+	background-image: url("../images/background_info.gif");
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
