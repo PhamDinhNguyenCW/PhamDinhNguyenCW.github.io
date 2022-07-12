@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+body, html{
+	background-image: url(../images/background_info.gif);
+	height: 100%;
+	margin: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.section_1{  /*section page info*/
+	display: flex;
+	justify-content: center;
+	 position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); 
+}
+.card{
+	width: 485px;
+	height: 600px;
+	background-color: #242526;
+	border-radius: 10px;
+}
+/*483-179*/
+.card__cover{
+	width: 485px;
+	height: 179px;
+	background-color: #141516;
+	border: none;
+	border-radius: 10px;
+}
+
+.card__avatar{
+	height: 170px;
+	width: 170px;
+	border: 2px;
+	margin: 0 auto;
+	margin-left: 155px;
+	border: 4px solid #242526;
+	border-radius: 50%;
+	overflow: hidden;
+  	transform: translateY(100px);
+  	cursor: pointer;
+}
+.but_cam button{
+	width: 50px;
+	height: 40px;
+	float: right; 
+	margin-right: 30px;
+	font-size: 15px;
+	margin-top: 120px;
+	text-decoration: none;
+	color: #000;
+	border-radius: 10px;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.but_cam button:hover{
+	background-color: #F2F2F2;
+}
+img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+  	object-position: center;
+}
+
+.h2__ten{
+	color: #E4E6EB;
+	text-align: center;
+	margin-top: 99px;
+	font-size: 25px;
+}
+
+.but__wall{
+	text-align: center;
+	margin-top: 25px;
+}
+
+.but__wall a{
+	text-decoration: none;
+	padding: 8px 30px;
+	color: #fff;
+	background-color: #2374E1;
+	border-radius: 5px;
+}
+
+.but__wall a:hover{
+	background-color: #3982E4;
+}
+
+.card__info{
+	text-align: center;
+	color: #E4E6EB;
+	margin-top: 20px;
+}
+
+.info p{
+	margin-top: 15px;
+	text-align: left;
+	color: #fff;
+	margin-left: 90px;
+}
+
+.card__link{
+	margin-top: -20px;
+	text-align: center;
+}
+.card__link a {
+  text-decoration: none;
+  color: #fff;
+  margin: 28px 14px 30px;
+  display: inline-block;
+  font-size: 28px;
+  transition: 0.25s;
+}
+
+.card__link a:hover {
+  color: #000;
+}
+
+
+@media screen and (max-width: 800px){
+	body, html{
+		background-image: url(../images/2.gif);
+		background-size: cover;
+	}
+	.card {
+		width: 315px;
+		height: 465px;
+	}
+	.card__cover{
+		width: 315px;
+		height: 138px;
+	}
+	.but_cam button{
+		width: 42px;
+		height: 35px;
+		margin-top: 90px;
+	}
+	.card__avatar{
+		height: 130px;
+		width: 130px;
+		margin-left: 95px;
+		transform: translateY(70px);
+	}
+	.h2__ten{
+		margin-top: 69px;
+		font-size: 20px;
+	}
+	.but__wall{
+	margin-top: 8px;
+	}
+	.but__wall a{
+		padding: 5px 25px;
+		font-size: 13px;
+	}
+	.card__info{
+		margin-top: 10px;
+	}
+	.info p{
+		margin-top: 12px;
+		margin-left: 58px;
+		font-size: 11px;
+	}
+	.card__link{
+		margin-top: -10px;
+	}
+}

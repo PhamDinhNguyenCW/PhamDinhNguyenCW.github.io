@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTHERS | Phạm Đình Nguyên</title>
+    <link rel="stylesheet" type="text/css" href="css/main_others.css">
+	<link rel="shorcut icon" type="image/png" href="images/logo.png">
+	<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+</head>
+<body>
+    <header>
+        <div class="bg-1">
+            <div class="container">
+                <div class="navbar">
+				    <a href="index.html"><img src="images/logo.png" class="logo"/></a>
+				    <nav>
+					    <ul id="menuList">
+						    <li class="active"><a href="index.html">HOME</a></li>
+						    <li><a href="about.html">ABOUT</a></li>
+						    <li><a href="others.html">ORTHERS</a></li>
+						    <li><a href="contact.html">CONTACT</a></li>
+						    <li><a href="https://github.com/PhamDinhNguyenCW">GITHUB</a></li>
+					    </ul>
+				    </nav>
+				    <img src="images/menu.png" class="menu-icon" onclick="togglemenu()"/>
+			    </div>
+            </div>
+        </div>
+    </header>
+    <section class="section">
+        <div class="container_section">
+            <div class="content_container">
+                <div class="img-1">
+                    <img src="images/section.jpg"/>
+                </div>
+                <h2>Web Design</h2>
+                <div class="noidung">
+                    <p>A website is a collection of web pages and related content such as images, videos, information, etc., identified by a specific domain name. For example google.com is the domain name of Google. The website that wants to work must have the domain name above and be hosted on a server (Hosting, server) to store the website's data. All websites that are publicly accessible are made up of the World Wide Web (www:). Users can access websites on a variety of devices, including desktops, laptops, tablets, and smartphones.<br> The application software used on these devices that are used to access the web is called a web browser, such as Google Chrome browser, Firefox, Internet Explorer, Safari, Coc Coc, Bing… A page web can be access to be access by how to enter it address of it or by searching for it on a search engine like Google or Bing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+		<div class="main-content">
+			<div class="left box">
+				<h2>About us</h2>
+				<div class="content">
+					<p>Please do what you want. If that's<br> what puts you at ease...</p>
+					<div class="social">
+						<a href="https://www.facebook.com/PhamDinhNguyenCW"><i class="fa-brands fa-facebook"></i></a>
+						<a href="https://www.twitter.com/phamdnguyn_203"><i class="fa-brands fa-twitter"></i></a>
+						<a href="https://www.instagram.com/phamdnguyn_203"><i class="fa-brands fa-instagram"></i></a>
+						<a href="https://github.com/PhamDinhNguyenCW"><i class="fa-brands fa-github"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="center box">
+				<h2>Address</h2>
+					<div class="content">
+						<div class="place">
+							<a href="index.html"><i class="fa-solid fa-location-dot"></i> &nbsp;Cam Lâm, Khánh Hòa</a>
+						</div>
+						<div class="phone">
+							<a href="tell:+84.979.xxx.425"><i class="fa-solid fa-phone"></i> &nbsp;+84.979.xxx.425</a>
+						</div>
+						<div class="email">
+							<a href="mailto:123@example.com"><i class="fa-solid fa-envelope"></i> &nbsp;123@example.com</a>
+						</div>
+					</div>
+			</div>
+			<div class="right box">
+				<h2>Contact us</h2>
+				<div class="content">
+					<form action="#">
+						<div class="email">
+							<div class="text">Email </div>
+							<input type="email" required/>
+						</div>
+						<div class="msg">
+							<div class="text">Message</div>
+							<textarea rows="2" cols="25" required></textarea>
+						</div>
+						<div class="btn">
+							<button type="submit">Send</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="bottom">
+			<center>
+				<span class="credit">Creat By<a href="#"> Phạm Đình Nguyên </a> | </span>
+				<i class="fa-light fa-copyright"><span> 2022 All right.</span></i>
+			</center>
+		</div>
+	</footer>
+    <script>
+
+		var menuList = document.getElementById("menuList");
+
+		menuList.style.maxHeight = "0px";
+
+		function togglemenu(){
+
+			if(menuList.style.maxHeight == "0px")
+				{
+					menuList.style.maxHeight = "190px";
+				}
+			else
+				{
+					menuList.style.maxHeight = "0px";
+				}
+		}
+
+	</script>
+</body>
+</html>
