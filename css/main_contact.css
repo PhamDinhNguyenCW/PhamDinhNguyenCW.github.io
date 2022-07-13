@@ -20,7 +20,7 @@ body ,html{
 }
 .container {
 	width: 100%;
-	min-height: 57vh;
+	min-height: 48vh;
 	padding-left: 8%;
 	padding-right: 8%;
 	box-sizing: border-box;
