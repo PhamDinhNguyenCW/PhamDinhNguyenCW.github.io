@@ -307,7 +307,7 @@ nav ul li a:hover{
 }
 @media (max-width:660px){
 	.title h1 {
-		font-size: 13px;
+		font-size: 12px;
 	}
 	.noidung p{
 		top: 40%;
