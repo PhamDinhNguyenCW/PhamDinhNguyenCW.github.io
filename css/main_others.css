@@ -14,7 +14,7 @@ body ,html{
 .bg-1{
     background-image: url("../images/background-other.jpg");
     height: 50%; 
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -77,8 +77,8 @@ nav ul li a:hover{
     padding: 30px 60px 40px 40px;
 }
 .img-1 img{
-    height: 500px;
     width: 100%;
+	height: auto;
 }
 
 /* -------------------------FOOTER------------------------- */
