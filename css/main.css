@@ -307,11 +307,11 @@ nav ul li a:hover{
 }
 @media (max-width:660px){
 	.title h1 {
-		font-size: 14px;
+		font-size: 13px;
 	}
 	.noidung p{
 		top: 40%;
-		font-size: 9px;
+		font-size: 8px;
 	}
 	.box_section .btn{
 		margin: -30px;
