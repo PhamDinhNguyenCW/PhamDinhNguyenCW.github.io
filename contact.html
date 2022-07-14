@@ -25,7 +25,8 @@
 						<li><a href="https://github.com/PhamDinhNguyenCW">GITHUB</a></li>
 					</ul>
 				</nav>
-				<img src="images/menu.png" class="menu-icon" onclick="togglemenu()"/>
+				<img src="images/menu.png" id="menu" class="menu-icon" onclick="togglemenu()" />
+				<img src="images/close.png" id="close" class="close-icon" onclick="closemenu()"/>
 			</div>
         </div></div>
     </header>
@@ -124,23 +125,21 @@
 		</div>
 	</footer>
     <script>
-
 		var menuList = document.getElementById("menuList");
-
 		menuList.style.maxHeight = "0px";
-
+		var img = document.getElementById("menu");
+		var img = document.getElementById("close");
+		document.getElementById('close').style.display='none';
 		function togglemenu(){
-
-			if(menuList.style.maxHeight == "0px")
-				{
-					menuList.style.maxHeight = "190px";
-				}
-			else
-				{
-					menuList.style.maxHeight = "0px";
-				}
+			menuList.style.maxHeight = "200px";
+			document.getElementById('menu').style.display='none';
+			document.getElementById('close').style.display='block';
 		}
-
+		function closemenu() {
+			menuList.style.maxHeight = "0px";
+			document.getElementById('close').style.display='none';
+			document.getElementById('menu').style.display='block';
+		}
 	</script>
 </body>
 </html>

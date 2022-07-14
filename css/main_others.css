@@ -41,6 +41,11 @@ body ,html{
 	cursor: pointer;
 	display: none;
 }
+.close-icon{
+	width: 25px;
+	cursor: pointer;
+	display: none;
+}
 nav {
 	flex: 1;
 	text-align: right;
@@ -234,8 +239,8 @@ nav ul li a:hover{
     /* ---------------------HEADER----------------------- */
 	nav ul{
 		width: 100%;
-		background-color: rgb(0,0,0);
-  		background-color: rgba(0,0,0, 0.6);
+		background-color: rgb(255, 255, 255);
+  		background-color: rgba(255, 255, 255, 0.6);
 		position: absolute;
 		display: inline;
 		top: 80px;
@@ -248,13 +253,16 @@ nav ul li a:hover{
 		margin-bottom: 10px;
 	}
 	nav ul li a{
-		color: #ccc;
+		color: #000;
 	}
 	#menuList{
 		overflow: hidden;
 		transition: 0.5s;
 	}
 	.menu-icon{
+		display: block;
+	}
+	.close-icon{
 		display: block;
 	}
     /* ---------------------SECTION----------------------- */

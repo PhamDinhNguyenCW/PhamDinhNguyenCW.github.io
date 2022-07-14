@@ -92,30 +92,21 @@
 			</center>
 		</div>
 	</footer>
-	<script>
-
+    <script>
 		var menuList = document.getElementById("menuList");
-
 		menuList.style.maxHeight = "0px";
 		var img = document.getElementById("menu");
 		var img = document.getElementById("close");
-		document.getElementById('close').style.visibility='hidden';
+		document.getElementById('close').style.display='none';
 		function togglemenu(){
-			// if(menuList.style.maxHeight == "0px")
-			// 	{
-					menuList.style.maxHeight = "200px";
-			// 	}
-			// else
-			// 	{
-			// 		menuList.style.maxHeight = "0px";
-			// 	}
-			document.getElementById('close').style.visibility='visible';
-			document.getElementById('menu').style.visibility='hidden';
+			menuList.style.maxHeight = "200px";
+			document.getElementById('menu').style.display='none';
+			document.getElementById('close').style.display='block';
 		}
 		function closemenu() {
 			menuList.style.maxHeight = "0px";
-			document.getElementById('menu').style.visibility='visible';
-			document.getElementById('close').style.visibility='hidden';
+			document.getElementById('close').style.display='none';
+			document.getElementById('menu').style.display='block';
 		}
 	</script>
 </body>
